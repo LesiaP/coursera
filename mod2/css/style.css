@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin-bottom: 15px;
+}
+.row {
+	width: 100%;
+}
+div {
+	border: 1px solid black;
+	float: left;
+}
+
+/*******Desktop************/
+@media (min-width: 992px) {
+	.col12, .col3 {
+		width: 33.33%;
+	}
+}
+/*******Tablet************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col12 {
+		width: 50%;
+	}
+	.col3 {
+		width: 100%;
+	}
+}
+/*******Mobile************/
+@media (max-width: 767px) {
+	.col12, .col3 {
+		width: 100%;
+	}
+}
